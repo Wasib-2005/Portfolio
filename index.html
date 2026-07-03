@@ -3,9 +3,31 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Wasibul Islam Wasib — Developer</title>
+
+<title>Wasibul Islam Wasib — Full-Stack Developer Portfolio</title>
+<meta name="title" content="Wasibul Islam Wasib — Full-Stack Developer Portfolio" />
+<meta name="description" content="Portfolio of Wasibul Islam Wasib, a solo full-stack web developer and experimenter specialized in the MERN stack (MongoDB, Express, React, Node.js), Next.js, and backend architecture." />
+<meta name="keywords" content="Wasibul Islam Wasib, Wasib, Full-Stack Developer, MERN Stack, React Developer, Node.js Developer, Web Developer Portfolio, Bangladesh Developer, Software Engineer" />
+<meta name="author" content="Wasibul Islam Wasib" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://github.com/Wasib-2005" />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://github.com/Wasib-2005" />
+<meta property="og:title" content="Wasibul Islam Wasib — Full-Stack Developer Portfolio" />
+<meta property="og:description" content="Portfolio of Wasibul Islam Wasib. Specializing in end-to-end web applications, MERN stack, Next.js, and systems development." />
+<meta property="og:image" content="https://github.com/Wasib-2005.png" />
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://github.com/Wasib-2005" />
+<meta property="twitter:title" content="Wasibul Islam Wasib — Full-Stack Developer Portfolio" />
+<meta property="twitter:description" content="Portfolio of Wasibul Islam Wasib. Specializing in end-to-end web applications, MERN stack, Next.js, and systems development." />
+<meta property="twitter:image" content="https://github.com/Wasib-2005.png" />
+
 <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=JetBrains+Mono:ital,wght@0,300;0,400;0,600;1,300&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet" />
+
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -160,15 +182,20 @@ section{position:relative;z-index:1;padding:110px 40px}
   background:linear-gradient(135deg,rgba(0,240,255,.12),rgba(192,132,252,.12));
   border:1.5px solid var(--cyan);
   display:flex;align-items:center;justify-content:center;
-  font-size:4.5rem;
+  overflow:hidden;
   animation:neonPulse 3s infinite;
+}
+.avatar-inner img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
 }
 .avatar-badge{
   position:absolute;top:-8px;right:-8px;
   background:var(--bg);border:1px solid var(--cyan);
   border-radius:3px;padding:3px 10px;
   font-size:.6rem;color:var(--cyan);letter-spacing:.2em;
-  font-family:'Orbitron',sans-serif;
+  font-family:'Orbitron',sans-serif;z-index:10;
 }
 .about-text p{
   color:#94a3b8;font-size:.82rem;line-height:1.9;margin-bottom:1.2rem;
@@ -332,7 +359,6 @@ body::before{
   </div>
 </nav>
 
-<!-- HERO -->
 <section id="home">
   <div class="orbit-ring ring1"></div>
   <div class="orbit-ring ring2"></div>
@@ -358,7 +384,6 @@ body::before{
   </div>
 </section>
 
-<!-- ABOUT -->
 <section id="about">
   <div class="section-inner">
     <div class="sec-label">01 // ABOUT</div>
@@ -366,7 +391,9 @@ body::before{
     <div class="about-grid">
       <div class="reveal-left" style="transition-delay:.1s">
         <div class="avatar-wrap">
-          <div class="avatar-inner">&#128126;</div>
+          <div class="avatar-inner">
+            <img src="https://github.com/Wasib-2005.png" alt="Wasibul Islam Wasib Profile Image" onerror="this.src='https://avatars.githubusercontent.com/u/201919312?v=4'">
+          </div>
           <div class="avatar-badge">BD &#127463;&#127465;</div>
         </div>
       </div>
@@ -400,7 +427,6 @@ body::before{
   </div>
 </section>
 
-<!-- SKILLS -->
 <section id="skills">
   <div class="section-inner">
     <div class="sec-label">02 // SKILLS</div>
@@ -419,7 +445,6 @@ body::before{
   </div>
 </section>
 
-<!-- PROJECTS -->
 <section id="projects">
   <div class="section-inner">
     <div class="sec-label">03 // PROJECTS</div>
@@ -460,7 +485,6 @@ body::before{
   </div>
 </section>
 
-<!-- CONTACT -->
 <section id="contact">
   <div class="section-inner">
     <div class="sec-label" style="text-align:center">04 // CONTACT</div>
